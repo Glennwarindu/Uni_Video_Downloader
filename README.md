@@ -1,6 +1,3 @@
-# Uni_Video_Downloader
-A universal video downloader script written in python
-
 # UNIDOWNLOADER
 
 Unidownloader is a lightweight Python-based video downloader built using `yt-dlp`.
@@ -16,7 +13,8 @@ The script supports:
 * High-quality video/audio downloads
 * Automatic stream merging with ffmpeg
 * Cookies support for logged-in sessions
-* Organized output folders
+* Automatic `videos/` folder creation
+* Organized output folders by platform
 * Simple command-line usage
 
 ---
@@ -65,6 +63,8 @@ Replace the example URL below with the video URL you want to download.
 ```bash
 python3 uni_downloader.py "https://www.vecteezy.com/video/53974301-aerial-view-of-young-athletes-playing-streetball-on-an-open-summer-playground"
 ```
+
+Downloaded videos are automatically saved inside a generated `videos/` directory.
 
 ---
 
